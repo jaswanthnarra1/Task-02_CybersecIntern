@@ -1,0 +1,77 @@
+Some Examples Of Email Phishing
+
+Mostly Based on the Target
+
+1. “You won a prize” / Giveaway scam
+
+Subject: Congratulations — You’ve Won ₹1,00,000!
+From: Rewards Team <rewards@amaz0n-offers[.]win>
+Body excerpt:
+
+Congratulations! You have been randomly selected to receive a cash prize. Click to claim: hxxp[://]claim-prize[.]amaz0n-offers[.]win/claim
+
+Red flags & analysis:
+
+Too-good-to-be-true — classic red flag.
+
+Random prize with no prior entry indicates mass phishing.
+
+Domain misuse and shortened or obfuscated link.
+
+2. Netflix / Apple fake billing refund lure
+
+Subject: Refund Processed – Netflix (or Apple)
+From: Billing <billing@netf1ix-payments[.]com>
+Body excerpt:
+
+Dear Subscriber,
+
+A refund of ₹X,XXX has been processed to your card. If this was not authorized, please open the attached invoice and confirm your billing details.
+
+Attachment: invoice_8921.docm
+
+Red flags & analysis:
+
+Attachment is a macro-enabled Word file (.docm) — commonly used to execute macros/malware.
+
+Too-good/urgent narrative: prompts opening attachment.
+
+Sender domain uses visually similar letters (netf1ix).
+
+3. “KYC / Document Update Required”
+
+Subject: Action required: KYC update for continued banking services
+From: KYC Team <kyc@bankofindia-update[.]in>
+Body (excerpt):
+
+Dear Customer,
+
+Our records show your KYC is incomplete. Upload the requested documents via the secure link below to avoid service interruption:
+
+Upload documents: hxxp[://]bankofindia-kyc[.]secure-upload/doc?id=XYZ
+
+Red flags
+
+Unexpected request for uploading documents via email link. Legit banks rarely ask to upload sensitive docs via forwarded email links.
+
+Domain looks suspicious with extra words and odd TLD.
+
+No secure indicators or verifiable reference number.
+
+4. “Failed NEFT / Payee Verification”
+
+Subject: NEFT transfer failed — verify beneficiary details
+From: Transfer Dept <payments@icici-payments[.]com>
+Body (excerpt):
+
+Hello,
+
+Your recent NEFT to beneficiary R. Sharma failed due to mismatched details. Please verify beneficiary account and reauthorize the transfer:
+
+Verify: hxxp[://]icici-bank[.]payments-verify/verify?txn=98765
+
+Red flags
+
+Pushes you to reconfirm banking credentials or click a link to reauthorize (could steal credentials).
+
+No mention of amount, date, or transaction ID that matches your records.
